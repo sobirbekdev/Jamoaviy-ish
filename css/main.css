@@ -34,8 +34,8 @@
   src: url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 .contonier {
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
   max-width: 1110px;
   width: 100%;
 }
@@ -65,18 +65,18 @@ header {
 .header__intro h1:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .header__intro h1:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .header__intro ul {
   display: flex;
   gap: 40px;
 }
-.header__intro ul li {
+.header__intro ul a {
   font-family: "Livvic";
   font-style: normal;
   font-weight: 600;
@@ -85,15 +85,15 @@ header {
   color: #fff;
   opacity: 0.7;
 }
-.header__intro ul li:hover {
+.header__intro ul a:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
-.header__intro ul li:active {
+.header__intro ul a:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .header__btn {
@@ -108,28 +108,27 @@ header {
   color: #000;
   border: 2px solid chartreuse;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .header__btn:active {
   background-color: #fff;
   color: #0e41e9;
   border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .header__span {
   display: none;
 }
 .header__span:hover {
-  border: 2px solid chartreuse;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .header__span:active {
   border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 550px) {
@@ -168,12 +167,12 @@ header {
 .wraper_box h1:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .wraper_box h1:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .wraper_box .wraper_span {
   color: #F67E7E;
@@ -198,15 +197,16 @@ header {
   max-width: 445px;
   padding: 79px 0 179px;
 }
+.wraper__navbar .wraper_img {
+  border: 2px solid transparent;
+}
 .wraper__navbar .wraper_img:hover {
-  border: 2px solid chartreuse;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .wraper__navbar .wraper_img:active {
-  border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .wraper__pos {
@@ -279,12 +279,12 @@ header {
 .intro__title h1:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__title h1:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__title .intro__line {
   width: 50px;
@@ -300,15 +300,16 @@ header {
   display: flex;
   row-gap: 32px;
 }
+.intro__seting img {
+  border: 2px solid transparent;
+}
 .intro__seting img:hover {
-  border: 2px solid chartreuse;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__seting img:active {
-  border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__seting ul {
   margin-left: 23px;
@@ -325,12 +326,12 @@ header {
 .intro__seting ul li:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__seting ul li:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .intro__seting ul p {
   font-family: "Livvic";
@@ -388,12 +389,12 @@ header {
 .medium__box h1:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__box h1:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__box .medium__span {
   color: #79C8C7;
@@ -401,12 +402,12 @@ header {
 .medium__box .medium__span:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__box .medium__span:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .medum__card {
@@ -450,12 +451,12 @@ header {
 .medium__navbar ul h2:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__navbar ul h2:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__navbar ul li {
   font-family: "Livvic";
@@ -468,22 +469,27 @@ header {
 .medium__navbar ul li:hover {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__navbar ul li:active {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
+}
+.medium__navbar ul img {
+  border: 2px solid transparent;
 }
 .medium__navbar ul img:hover {
+  border-radius: 50%;
   border: 2px solid chartreuse;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .medium__navbar ul img:active {
+  border-radius: 50%;
   border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -514,12 +520,12 @@ header {
 .finsh__box h2:hover {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .finsh__box h2:active {
   color: blue;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 .finsh__box .finsh__btn {
   padding: 10px 32px;
@@ -534,13 +540,13 @@ header {
 .finsh__box .finsh__btn:hover {
   color: #7ffa66;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
   background-color: #fff;
 }
 .finsh__box .finsh__btn:active {
   color: #fa6666;
   transform: scale(1.1, 1.1);
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -548,4 +554,255 @@ header {
     flex-direction: column;
     row-gap: 33px;
   }
+}
+/* livvic-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/livvic-v13-latin-regular.woff2") format("woff2"), url("../fonts/livvic-v13-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v13-latin-600.woff2") format("woff2"), url("../fonts/livvic-v13-latin-600.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* livvic-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v13-latin-700.woff2") format("woff2"), url("../fonts/livvic-v13-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.contonier {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.header {
+  background-color: #014E56;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 77px 0;
+}
+.header__text {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.header__text h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "livvik";
+  font-style: normal;
+}
+.header__text ul {
+  display: flex;
+  gap: 40px;
+}
+.header__text ul a {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.header__btn {
+  border: 2px solid #FFFFFF;
+  border-radius: 24px;
+  padding: 10px 32px;
+  background-color: #014E56;
+}
+.header__btn a {
+  color: #fff;
+}
+.header__btn:hover {
+  background-color: #fff;
+  border: 2px solid chartreuse;
+}
+.header__btn:hover a {
+  color: #000;
+}
+.header__btn:active {
+  background-color: #fff;
+  color: #0e41e9;
+  border: 2px solid darkorange;
+}
+
+@media screen and (max-width: 550px) {
+  .header__intro ul {
+    display: none;
+  }
+  .header__span {
+    display: inline-block;
+  }
+  .header__btn {
+    display: none;
+  }
+}
+.intro-section {
+  background-color: #014E56;
+}
+
+.intro__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 124px 0;
+}
+
+.intro__title h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-top: 54px;
+  max-width: 445px;
+}
+.intro__title p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #F67E7E;
+  padding: 32px 0 16px;
+}
+
+.intro__navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.intro__seting {
+  display: flex;
+  align-items: center;
+  row-gap: 32px;
+}
+.intro__seting img {
+  border: 2px solid transparent;
+}
+.intro__seting img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+.intro__seting img:active {
+  transform: scale(1.1, 1.1);
+  transition: all 0.5s;
+}
+.intro__seting ul {
+  margin-left: 23px;
+}
+.intro__seting ul p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 445px;
+}
+
+.intro__input {
+  display: flex;
+  flex-direction: column;
+}
+.intro__input input {
+  margin-top: 24px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  padding: 0 81px 17px 14px;
+  width: 540px;
+}
+.intro__input .in_ip {
+  padding: 0 81px 58px 14px;
+}
+.intro__input .intro_btn {
+  cursor: pointer;
+  margin-top: 24px;
+  width: 123px;
+  padding: 10px 32px;
+  border-radius: 24px;
+  border: none;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #004047;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .intro__box {
+    padding: 0 133px 328px 133px;
+  }
+}
+.footer {
+  background-color: #004047;
+}
+.footer__wrapper {
+  max-width: 100%;
+  padding: 48px 0;
+  display: flex;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.footer .title__List {
+  display: flex;
+  gap: 40px;
+}
+.footer .title__List a {
+  color: #fff;
+}
+.footer__text {
+  margin-left: 125px;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.footer__img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 340px;
+}
+.footer__img img {
+  margin-bottom: 50px;
+  width: 124px;
 }/*# sourceMappingURL=main.css.map */

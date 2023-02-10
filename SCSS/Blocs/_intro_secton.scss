@@ -51,14 +51,13 @@
     display: flex;
     row-gap: 32px;
     img{
+        border: $border_hover2;
         &:hover {
-            border: $border_hover;
             transform: $transform_;
             transition: $transition-;
         }
 
         &:active {
-            border: $border_activ;
             transform: $transform_;
             transition: $transition-;
         }
