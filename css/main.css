@@ -58,9 +58,19 @@ header {
 }
 .header__intro h1 {
   color: #fff;
-  font-size: 35px;
+  font-size: 40px;
   font-family: livvik;
   font-style: normal;
+}
+.header__intro h1:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.header__intro h1:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
 }
 .header__intro ul {
   display: flex;
@@ -106,4 +116,436 @@ header {
   border: 2px solid darkorange;
   transform: scale(1.1, 1.1);
   transition: all 0.4s;
+}
+
+.header__span {
+  display: none;
+}
+.header__span:hover {
+  border: 2px solid chartreuse;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.header__span:active {
+  border: 2px solid darkorange;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 550px) {
+  .header__intro {
+    gap: 40px;
+  }
+  .header__btn {
+    padding: 8px 20px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header__intro ul {
+    display: none;
+  }
+  .header__span {
+    display: inline-block;
+  }
+  .header__btn {
+    display: none;
+  }
+}
+.header__wraper {
+  margin-top: 62px;
+  display: flex;
+}
+
+.wraper_box h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #FFFFFF;
+  max-width: 635px;
+}
+.wraper_box h1:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.wraper_box h1:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.wraper_box .wraper_span {
+  color: #F67E7E;
+}
+
+.wraper__navbar {
+  margin-left: 30px;
+}
+.wraper__navbar .wraper__line {
+  width: 50px;
+  height: 4px;
+  background-color: #79C8C7;
+}
+.wraper__navbar p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  max-width: 445px;
+  padding: 79px 0 179px;
+}
+.wraper__navbar .wraper_img:hover {
+  border: 2px solid chartreuse;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.wraper__navbar .wraper_img:active {
+  border: 2px solid darkorange;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+.wraper__pos {
+  position: relative;
+}
+.wraper__pos ul {
+  position: absolute;
+  left: -180px;
+}
+
+@media screen and (max-width: 970px) {
+  .wraper_box h1 {
+    font-size: 87px;
+    line-height: 87px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wraper__pos {
+    display: none;
+  }
+  .header__wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__wraper .wraper_box h1 {
+    max-width: 390px;
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .wraper_img {
+    max-width: 360px;
+  }
+  .wraper__line {
+    display: none;
+  }
+  .wraper__navbar p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wraper_img {
+    max-width: 260px;
+  }
+  .wraper__navbar p {
+    text-align: center;
+  }
+}
+.intro-section {
+  background-color: #002529;
+}
+
+.intro__box {
+  padding: 140px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro__title h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-top: 54px;
+  max-width: 445px;
+}
+.intro__title h1:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__title h1:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__title .intro__line {
+  width: 50px;
+  height: 4px;
+  background: #F67E7E;
+}
+
+.intro__navbar {
+  margin-top: 58px;
+}
+
+.intro__seting {
+  display: flex;
+  row-gap: 32px;
+}
+.intro__seting img:hover {
+  border: 2px solid chartreuse;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__seting img:active {
+  border: 2px solid darkorange;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__seting ul {
+  margin-left: 23px;
+}
+.intro__seting ul li {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+  padding: 32px 0 16px;
+}
+.intro__seting ul li:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__seting ul li:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.intro__seting ul p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 445px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__title h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .intro__seting {
+    margin-top: 48px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__seting ul {
+    align-items: center;
+    text-align: center;
+  }
+  .intro__seting ul li {
+    padding: 0;
+  }
+}
+.medium-section {
+  background-color: #014E56;
+}
+
+.medium__box {
+  padding: 140px 0;
+}
+.medium__box h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 982px;
+}
+.medium__box h1:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__box h1:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__box .medium__span {
+  color: #79C8C7;
+}
+.medium__box .medium__span:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__box .medium__span:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+.medum__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.medium__navbar {
+  margin-top: 92px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.medium__navbar p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 350px;
+}
+.medium__navbar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+.medium__navbar ul h2 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+.medium__navbar ul h2:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__navbar ul h2:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__navbar ul li {
+  font-family: "Livvic";
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 2px 0 32px;
+}
+.medium__navbar ul li:hover {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__navbar ul li:active {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__navbar ul img:hover {
+  border: 2px solid chartreuse;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.medium__navbar ul img:active {
+  border: 2px solid darkorange;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .medum__card {
+    flex-direction: column;
+  }
+}
+.Finsh-section {
+  background-color: #F67E7E;
+}
+
+.finsh__box {
+  padding-top: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+.finsh__box h2 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012F34;
+  text-align: center;
+}
+.finsh__box h2:hover {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.finsh__box h2:active {
+  color: blue;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+.finsh__box .finsh__btn {
+  padding: 10px 32px;
+  border-radius: 24px;
+  background-color: #F67E7E;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.finsh__box .finsh__btn:hover {
+  color: #7ffa66;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+  background-color: #fff;
+}
+.finsh__box .finsh__btn:active {
+  color: #fa6666;
+  transform: scale(1.1, 1.1);
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+  .finsh__box {
+    flex-direction: column;
+    row-gap: 33px;
+  }
 }/*# sourceMappingURL=main.css.map */
