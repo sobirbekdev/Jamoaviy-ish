@@ -39,7 +39,7 @@ header {
         display: flex;
         gap: 40px;
 
-        li {
+        a {
             font-family: 'Livvic';
             font-style: normal;
             font-weight: 600;
@@ -69,7 +69,6 @@ header {
     padding: 10px 32px;
     background-color: $bten-narmal-bg;
     color: #fff;
-
     &:hover {
         background-color: $ntn-hover-bg ;
         color: #000;
@@ -77,7 +76,6 @@ header {
         transform: $transform_;
         transition: $transition-;
     }
-
     &:active {
         background-color: $ntn-hover-bg ;
         color: #0e41e9;
@@ -85,14 +83,11 @@ header {
         transform: $transform_;
         transition: $transition-;
     }
-
 }
 
 .header__span {
     display: none;
-
     &:hover {
-        border: $border_hover;
         transform: $transform_;
         transition: $transition-;
     }
@@ -188,14 +183,14 @@ header {
     }
 
     .wraper_img {
+        border: $border_hover2;
+        
         &:hover {
-            border: $border_hover;
             transform: $transform_;
             transition: $transition-;
         }
 
         &:active {
-            border: $border_activ;
             transform: $transform_;
             transition: $transition-;
         }

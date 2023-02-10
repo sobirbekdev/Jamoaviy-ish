@@ -121,13 +121,16 @@
         }
 
         img {
+            border: $border_hover2;
             &:hover {
+                border-radius:50% ;
                 border: $border_hover;
                 transform: $transform_;
                 transition: $transition-;
             }
 
             &:active {
+                border-radius:50% ;
                 border: $border_activ;
                 transform: $transform_;
                 transition: $transition-;
