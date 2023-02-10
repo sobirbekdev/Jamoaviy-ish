@@ -1,0 +1,50 @@
+.medium-section {
+    background-color: $footer-bg;
+
+    .medium__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 0 0 70px;
+        }
+    }
+
+    .medium__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 80px;
+        padding: 0 0 151px;
+
+        li {
+            font-family: 'Livvic';
+            font-style: normal;
+            color: #FFFFFF;
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
+
+    .medium_span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .medium-section {
+        .medium__item {
+            gap: 30px;
+        }
+    }
+
+}
