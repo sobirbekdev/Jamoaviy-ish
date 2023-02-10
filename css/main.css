@@ -555,6 +555,47 @@ header {
     row-gap: 33px;
   }
 }
+.footer {
+  background-color: #004047;
+}
+.footer__wrapper {
+  max-width: 100%;
+  padding: 48px 0;
+  display: flex;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.footer .title__List {
+  display: flex;
+  gap: 40px;
+}
+.footer .title__List a {
+  color: #fff;
+}
+.footer__text {
+  margin-left: 125px;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.footer__img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 340px;
+}
+.footer__img img {
+  margin-bottom: 50px;
+  width: 124px;
+}
+
 /* livvic-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -623,7 +664,6 @@ header {
 }
 .header__text ul a {
   font-family: "Livvic";
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 28px;
@@ -761,9 +801,39 @@ header {
   color: #004047;
 }
 
-@media screen and (max-width: 768px) and (min-width: 481px) {
+@media screen and (max-width: 768px) {
   .intro__box {
     padding: 0 133px 328px 133px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__title h1 {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 481px) {
+  .intro__seting {
+    margin-top: 48px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro__seting ul {
+    align-items: center;
+    text-align: center;
+  }
+  .intro__seting ul li {
+    padding: 0;
   }
 }
 .footer {
