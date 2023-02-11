@@ -1,9 +1,9 @@
 .footer{
     background-color: #004047;
     &__wrapper{
-        max-width: 100%;
         padding: 48px 0;
         display: flex;
+        justify-content: space-between;
         font-family: 'Livvic';
         font-weight: 600;
         font-size: 18px;
@@ -18,7 +18,6 @@
         }
     }
     &__text{
-        margin-left: 125px;
         font-family: 'Livvic';
         font-weight: 600;
         font-size: 15px;
@@ -31,10 +30,5 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-left: 340px;
-        img{
-            margin-bottom: 50px;
-            width: 124px;
-        }
     }
 }
